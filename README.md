@@ -139,9 +139,7 @@ public class SimpleApplet extends Applet
     // whenever the applet must redraw its output, paint( ) is called.
     public void paint(Graphics g)
     {
-        g
-
-.drawString(msg,20,20);
+        g.drawString(msg,20,20);
     }
 }
 ```
